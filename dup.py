@@ -1,6 +1,15 @@
-from fire import Fire
-import sys, os, time
+"""
+Author: xiejiahe
+Repo: https://github.com/xjh22222228/dup
+Version: v1.1.0
+"""
+
+import os
+import sys
+import time
+
 from colorama import init, Fore
+from fire import Fire
 
 lineMap = {}
 start_timestamp = time.time()
@@ -40,9 +49,9 @@ def parse_command(filein='./example.txt', fileout='./out.txt'):
     after_total = len(lineMap.keys())
     end_timestamp = time.time()
 
-    print('Before Line: {}, After Line: {}'.format(str(before_total), str(after_total)))
-    print('Total: {} duplicates'.format(str(before_total - after_total)))
-    print(Fore.GREEN + 'Time: ' + str(round(end_timestamp - start_timestamp, 5)) + ' s')
+    print('Before Line: {}, After Line: {}'.format(before_total, after_total))
+    print('Total: {} duplicates'.format(before_total - after_total))
+    print(Fore.GREEN + 'Time: {} s'.format(round(end_timestamp - start_timestamp, 5)))
 
 
 if __name__ == '__main__':
