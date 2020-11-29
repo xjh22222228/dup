@@ -14,12 +14,14 @@
 ## Install
 ```
 git clone --depth=1 https://github.com/xjh22222228/dup.git
+
+pip install -r requirements.txt
 ```
 
 
 ## Usage
 - filein 指定需要过滤文本路径
-- fileout 可选, 指定过滤后输出路径，默认当前下的 out.txt
+- fileout [可选], 指定过滤后输出路径，默认当前下的 out.txt
 
 ```bash
 python3 dup.py --filein=./example.txt

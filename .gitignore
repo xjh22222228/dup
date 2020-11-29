@@ -1,1 +1,5 @@
 out.txt
+.idea/
+.vscode
+.DS_Store
+重复文本.txt
