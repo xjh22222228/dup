@@ -2,7 +2,7 @@
 <p align="center">
   <b>dup 是一个用来过滤重复文本内容</b>
   <p align="center">
-    <img src="https://img.shields.io/github/license/xjh22222228/nav" />
+    <img src="https://img.shields.io/github/license/xjh22222228/dup" />
     <img src="https://img.shields.io/github/v/release/xjh22222228/dup" />
   </p>
 </p>
